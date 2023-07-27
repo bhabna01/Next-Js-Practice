@@ -15,7 +15,10 @@ const RootLayout = ({ children }) => {
       <body className={inter.className}>
         <nav>Home</nav>
 
-        {children}</body>
+        {children}
+
+        <footer>Footer</footer>
+      </body>
 
     </html>
   )
