@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({ subsets: ['latin'], weight: ["100", "700", "400"] })
 
 export const metadata = {
   title: 'Next Hero',
@@ -11,13 +11,11 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-
-      <body className={inter.className}>
-        <nav>Home</nav>
+      <body className={roboto.className}>
 
         {children}
 
-        <footer>Footer</footer>
+
       </body>
 
     </html>
