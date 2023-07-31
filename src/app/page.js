@@ -8,7 +8,7 @@ const HomePage = () => {
     <main >
       <Navbar></Navbar>
       <h1>Home</h1>
-      <Image width={600} height={400} src={image1} placeholder='blur' alt=""></Image>
+      {/* <Image width={600} height={400} src={image1} placeholder='blur' alt=""></Image> */}
       <Categories></Categories>
 
     </main>

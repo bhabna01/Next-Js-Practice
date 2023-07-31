@@ -1,9 +1,9 @@
 
 
-const getAllProducts = async (categoryID) => {
+const getAllProducts = async (categoryId) => {
     let url = "http://localhost:500/products"
-    if (categoryID) {
-        url += "?categoryID=" + categoryID
+    if (categoryId) {
+        url += "?categoryId=" + categoryId
     }
     const res = await fetch(url, {
         cache: "no-cache"
